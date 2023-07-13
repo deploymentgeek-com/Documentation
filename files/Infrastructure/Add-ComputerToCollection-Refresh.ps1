@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    Adds a device direct membership rule to a named collection by the device name (within a TS)
+    Adds a device direct membership rule to a named collection by the device name (within a Refresh TS)
 .DESCRIPTION
-    Adds a device direct membership rule to a named collection by the device name (within a TS)
+    Adds a device direct membership rule to a named collection by the device name (within a Refresh TS)
 .PARAMETER SMSProvider
    SMS Provider server name
 .PARAMETER DeviceName
@@ -10,7 +10,7 @@
 .PARAMETER CollectionName
     Name of the collection to add device to
 .NOTES
-    Script name: Add-ComputerToCollection.ps1
+    Script name: Add-ComputerToCollection-Refresh.ps1
     Author:      Curtis Ling
     DateCreated: 2023-06-16
 #>
